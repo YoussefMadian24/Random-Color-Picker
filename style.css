@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+}
+.btn_container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+    font-family: cursive;
+    width: 150px;
+    height: 40px;
+    border-radius: 25px;
+    background-color: black;
+    color: white;
+    transition: all 0.5s ease;
+    font-size: 25px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.btn:hover{
+    background-color: grey;
+    color: black;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+p{
+    font-size: large;
+    font-family: cursive;
+    font-weight: 600;
+    position: absolute;
+    margin-top: 100px;
+}
